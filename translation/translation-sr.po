@@ -1,0 +1,975 @@
+# Serbian translation for grub-customizer
+# Copyright (c) 2016 Rosetta Contributors and Canonical Ltd 2016
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2016-06-05 21:30+0000\n"
+"Last-Translator: Anaximandar <Unknown>\n"
+"Language-Team: Serbian <sr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-10-13 11:16+0000\n"
+"X-Generator: Launchpad (build 18790)\n"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "Назив уноса"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "није могуће помакнути овај унос"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "Конфигурација ће бити сачувана"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "ажурирање конфигурације"
+
+#: src/View/Gtk/About.hpp:53
+msgid ""
+"Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr ""
+"Grub Customizer је графичко окружење за конфигурисање grub2/burg подешавања"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "скрипта"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "подмени"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "резервација места"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "мени уноса"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "скрипта: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "подразумевани назив: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "партиција: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "ISO-слика: "
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr "Memtest-слика: "
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "тренутно"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "_Тип:"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr "Boot секвенца"
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr "_Назив:"
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+"Грешка при креирању boot секвенце.\n"
+"Проверите параметре!"
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "Уређивач уноса"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "Изабери"
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323
+#: src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "Остало"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325
+#: src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(код скрипте)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "Изаберите датотеку"
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "_Партиција"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "_Иницијализација ramdisk-а (initrd)"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "_Linux slika"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "_Memtest slika"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "Путања до iso датотеке"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "Параметри кернела"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "I_SO слика"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr "_Memtest-слика"
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "_Партиција:"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "Тачке подмонтирања:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "сачувај ову конфигурацију"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "Grub 2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "Монтирање није успело!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "демонтирање није успело!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr ""
+"Изгледа да ово није корени систем датотека (root) , (fstab није пронађен)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "Није могуће монтирање одабране партиције"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "Није могуће демонтирање одабране партиције"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "Дошло је до грешке"
+
+#: src/View/Gtk/Error.hpp:32
+msgid ""
+"please Inform the author about this problem. The following information could "
+"be helpful:"
+msgstr ""
+"молим, обавестите аутора о овом проблему. Следеће информације би биле од "
+"помоћи:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "настави (ризик од губитка података)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"Инсталирај bootloader у MBR и стави неке\n"
+"податке у bootloader директотијум\n"
+"(ако већ не постоје)."
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "_Уређај: "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "Инсталирај у MBR"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "Bootloader је инсталиан успешно"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "Грешка током инсталације bootloader-а"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "инсталирање bootloader-а"
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "Молим унесите ознаку уређаја!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "_Датотека"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "_Уреди"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "_Приказ"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "_Помоћ"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "_инсталирај у MBR"
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "_Прикажи детаље"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "Прикажи _скривене уносе"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "_Групиши по скриптама"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "Прикажи _резервисана места"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "BURG пронађен!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "напредна подешавања"
+
+#: src/View/Gtk/Main.hpp:139
+msgid ""
+"The modifications you've done affects the visible entries. Please reload!"
+msgstr ""
+"Промене које сте учинили имају утицај на приказ. Молим поново учитајте!"
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr ""
+"Ажурирање скрипти је пронађено. Кликните на 'сачувај' да примените измене!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "_Листа конфигурација"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr "Уклони изабране уносе (можете их вратити из смећа)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "Помакните горе изабрани унос или скрипту"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "Помакните доле изабрани унос или скрипту"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "уклоните овај унос из тренутног подменија"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "додај овај унос у нови подмени"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "Враћа листу на подразумевани редослед"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "поново учитај конфигурацију. Несачване измене ће бити сачуване."
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "Преименуј"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "Помери навише"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "Помери наниже"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "Уклони из подменија"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "Креирај подмени"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "_Измена окружења"
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "Зелите ли да подесите BURG уместо grub2?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "_Општа подешавања"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "_Подешавања изгледа"
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "BURG Режим"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr "Сачувај конфигурацију и направи нову %1"
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "учитавање конфигурације"
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "учитавање скрипте %2/%3 (%1)"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "Proxy бинаран није пронађен!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid ""
+"You will see all entries (uncustomized) when you run grub. This error accurs "
+"(in most cases), when you didn't install grub gustomizer currectly."
+msgstr ""
+"Видећете све уносе (неприлагођене) када покренете GRUB. Ова грешка настаје "
+"(у већини случајева), када 'grub gustomizer' није коректно инсталиран."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(долазни Уноси %1)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(долазни Уноси)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "Сачуване конфигурације нису ажурне!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid ""
+"The generated configuration didn't equal to the saved configuration on "
+"startup. So what you see now may not be what you see when you restart your "
+"pc. To fix this, click update!"
+msgstr ""
+"Начињена конфигурација није једнака сачуваним конфигурацијама при покретању. "
+"Стога оно што видите сада можда нећете видети након поновног покретања "
+"рачунара. Да поправите ово, кликните на 'ажурирање'!"
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "_Изађи без ажурирања"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "_Ажурирај и изађи"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "Да ли желите да сачувате ваше измене?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "_Изађи без чувања"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "_Сачувај & Изађи"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr ""
+"AND: ваше измене још увек нису сачуване, ажурирање ће сачувати и њих!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr "Неуспешно снимање GRUB конфигурације!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "GRUB конфигурација неће бити сачувана"
+
+#: src/View/Gtk/Main.hpp:622
+msgid ""
+"Please take a look at the command line output below. If you think this is a "
+"bug of Grub Customizer, please create one at %1! Generally Grub Customizer "
+"should prevent errors like this."
+msgstr ""
+"Молим погледајте излаз командне линије испод. Ако мислите да је грешка у "
+"Grub Customizer-у, направите један %1! Уопштено  Grub Customizer би требало "
+"спречити грешке попут ове."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"%1 не може се извршити успешно. Порука грешке:\n"
+" %2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "Подешавања окружења"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "Желит ли наставити без чувања тренутне конфигурације?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "Постоје несачуване измене!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid ""
+"Removing Script Code can cause problems when trying to boot entries relying "
+"on it. Are you sure you want to do it anyway?"
+msgstr ""
+"Уклањање кода скрипте може проузроковати проблеме при покушатју покретања "
+"boot уноса који се односе на њу. Сигурно то желите да урадите?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure "
+"there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them "
+"instead of just hiding them in boot menu."
+msgstr ""
+"Покушавате да уклоните унос на тренутно покренутом систему. Уверите се да ли "
+"постоји и други фунционалан уноси на систему!\n"
+"Ако само желите да уклоните старе кернеле (језгра): бољи начин је "
+"деинсталација, уместо да их сакријете у boot менију."
+
+#: src/View/Gtk/Main.hpp:887
+msgid ""
+"An menuentry which is visible at the grub menu and boots an operating system "
+"when activated."
+msgstr ""
+"Ставка менија која се види у менију 'grub' и покреће оперативни систем биће "
+"активна."
+
+#: src/View/Gtk/Main.hpp:889
+msgid ""
+"A group of other operating systems. Grub shows it as a normal menuentry "
+"however when clicking it, it loads another menu which allows you to choose "
+"one the the containing menuentries."
+msgstr ""
+"Група других оперативних система. GRUB их приказује као нормалне уносе "
+"менија, али када кликнете на њих отвара се други мени који вам омогућава "
+"избор садржаја менија."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place "
+"where Grub Customizer places new operating systems which are found by grub "
+"but still not configured using Grub Customizer. The Script code is code "
+"generated by grub which doesn't look like an menuentry. In most cases it's "
+"used to configure grub. You should only touch it when knowing what it does. "
+"Placeholders are hidden by default."
+msgstr ""
+"Постоје две врсте посебних уноса: Долазни унос је место где Grub Customizer "
+"смешта нови оперативни систем који је пронашао 'grub', али још увек није "
+"конфигурисан Grub Customizer-ом. Код скрипте, је код генерисан од 'grub'-а "
+"који не изгледа као мени уноса. У већини случајева користи се за "
+"конфигурацију 'grub'-а. Требали би га користити само када знате чему служи. "
+"Позиције места су скривене по стандардном подешавању."
+
+#: src/View/Gtk/Main.hpp:898
+msgid ""
+"Scripts are generating menuentries. So every menuentry belongs to a script. "
+"They are shown as top level groups when activated. However in contrast to "
+"submenus they aren't shown at the boot menu."
+msgstr ""
+"Скрипте генеришу меније уноса. Стога сваки мени уноса припада скрипти. Они "
+"су приказани на врху групе када су активни. Међутим, за разлику од подменија "
+"они нису приказани у менију за покретање (boot menu)."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "О типовима уноса"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "Јесте ли сигурни?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr "Ово ће уклонити вашу целу листу измена у 'bootloader' менију!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "пре_дефинисано: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "претходно_покренути унос"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "подразумевани унос"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "приказ"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "прикажи мени"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "параметри кернела"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "генериши ставке за опоравак"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "види друге оперативне системе"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "прилагођење резолуције: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "подешавања"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "_Опште"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "И_зглед"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "_Напредно"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "је активно"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "назив"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "вредност"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "Покрени задани унос након %1 секунди"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr "(први унос)"
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr "(остали   )"
+
+#: src/View/Gtk/Settings.hpp:459
+msgid ""
+"This option doesn't work when the \"os-prober\" script finds other operating "
+"systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr ""
+"Ова опција не ради док \"os-prober\" скрипта претражује остале оперативне "
+"системе. Онемогући \"%1\" ако немате потребу да покренете друге оперативне "
+"системе."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected "
+"when booting. By default this always is the first one. This option means "
+"that the default entry selection stays the same when placing other operating "
+"systems there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So "
+"the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second "
+"entry\" you can use the last option which allows typing a custom reference. "
+"Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+"Ова опција омогућава избор оперативног система, који од њих ће бити изабран "
+"код покретања. Уобичајено то је увек први. Ова опција значи да подразумевани "
+"изабрани унос остаје исти, до постављања другог оперативног система на  то "
+"место.\n"
+"\n"
+"За разлику од прве опције остали избори се наводе по имену. Тако да "
+"подразумевани систем не мења место када се померите на неки други.\n"
+"\n"
+"Ако желите да користите неку другу одредницу, као \"увек упути на други "
+"унос\" можете да користите задњу опцију која омогућује прилагођено уписивање "
+"уноса. Примери коришћења:\n"
+" 1 = \"увек упути на други унос\" (рачунајући звездице од 0)\n"
+"  test>0 = \"увек упути на први унос подменија под називом тест\""
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "бела"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "жута"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "светло-цијан"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "цијан"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "светло-плава"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "плава"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "светло-зелена"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "зелена"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "светло-љубичаста"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "љубичаста"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "светло-црвена"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "црвена"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "браон"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "светло-сива"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "тамно-сива"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "прозирно"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "црна"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "_Учитај датотрку: "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "_Тема:"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "слика позадине"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "Изаберите слику позадине!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "_Фонт"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "изаберите датотеку теме"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "Садржај теме"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "Прилагођење теме подешавања"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "Уобичајени: Фонт"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "Уобичајена: Позадина"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "Наглашени: Фонт"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "Наглашена: Позадина"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "Датотека"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "додај тему"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "обриши ову тему"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "Архиве"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "Све датотеке"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "уклони фонт"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "уклони позадину"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(Прилагођење Подешавања)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "Изабрана датотека не може бити учитана као тема"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "Задани назив датотеке не може се користити"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid ""
+"This theme doesn't contain a %1. Please look for the config file and rename "
+"it to \"%1\"!"
+msgstr ""
+"Ова тема не садржи %1. Погледајте конфигурациону датотеку и преименујте је у "
+"\"%1\"!"
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "Чување тема није успело у потпуности!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr "Замена датотеке неуспешна. Молим изаберите прво датотеку теме!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "назив датотеке"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot "
+"screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a "
+"general maximum. When you're trying to select a larger font, please do it in "
+"small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) won't "
+"fit into screen. So while there's enough vertical space you can try a larger "
+"font. The mass of menuentries is not a problem - they are scrolled if "
+"required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live "
+"cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of "
+"the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"напомена: већи фонтови на нижим резолуцијама екрана могу покварит 'boot' "
+"приказ\n"
+"Зато што тај проблем зависи од изабраног фонта, није могуће одредити га као "
+"општи максимум. Када покушатвате да одаберете већи фонт, учините то у мањим "
+"корацима (поново покрените систем и проверите резултате).\n"
+"Проблем настаје када елементи 'grub' графичког окружења (ивице, описии) не "
+"могу стати у екран. Стога док постоји довољно вертикалног простора, можете "
+"пробати да увећате фонт. Многобројност менија није проблем - јер се они "
+"померају по потреби.\n"
+"\n"
+"Неисправни подаци могу довести до бескрајног времена учитавања grub2. Да би "
+"то поправили потрбан вам је неки live-cd:\n"
+" * обришите фонт из (MOUNT)/boot/grub/unicode.pf2\n"
+" * поново покрените ваш систем (мени би требало да се појаве са стандардним "
+"фонтовима)\n"
+" * отворите  /etc/default/grub  са root привилегијама, и ставите '#' на "
+"почетак реда који садржи GRUB_FONT\n"
+" * затим покрените 'grub customizer' да одаберете фонт који сте користили пре"
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Grub фонтови могу изазвати проблеме (информација)"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "Сигурно желите да уклоните ову тему"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like "
+"color, wallpaper and font you can install complex theme packages to get an "
+"even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and "
+"add it to the list of available themes by using the add button next to the "
+"theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of "
+"images and allows some file management. Modified theme contents will be "
+"saved when you're pressing the save button."
+msgstr ""
+"Алтернативно једноставнији начин избора теме која пружа неке опције као што "
+"су боје, позадина и фонт, је инсталација  пакете тема да  добитијете још "
+"лепши изглед менија за покретање система.\n"
+"\n"
+"Постоји више извора преузимања попут овог на ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (потребан је налог)\n"
+"или потражите '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Једноставно преузмите неки пакет (који је у 'tar.gz' формату у већини "
+"случајева) и додајте га у листу доступних тема користећи дугме 'додај' из "
+"бирача тема.\n"
+"\n"
+"Након промене теме видећете једноставан едитор који вам даје преглед слика и "
+"омогућава једноставно управљање датотекама. Модификовани садржај теме биће "
+"сачуван када притиснете дугме 'сачувај'."
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "Додај унос из смећа"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "Уклоњене ставке"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "_Врати"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "Врати изабране уносе"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "трајно обриши изабране уносе"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid ""
+"delete entries permanently - this action is available on custom entries only"
+msgstr ""
+"обриши уносе трајно - ова радња је доступан само на прилагођеним уносима"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "Ово брише следеће уносе:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "Линукс"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "Linux-ISO"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "Chainloader"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "Memtest"

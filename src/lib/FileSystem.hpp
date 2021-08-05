@@ -1,0 +1,75 @@
+/*
+ * Copyright (C) 2010-2011 Daniel Richter <danielrichter2007@web.de>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
+ * 
+ * Additional permission under GNU GPL version 3 section 7
+ *
+ * If you modify this program, or any covered work, by linking or combining
+ * it with the OpenSSL library (or a modified version of that library),
+ * containing parts covered by the terms of the OpenSSL license, the licensors
+ * of this program grant you additional permission to convey the resulting work.
+ * Corresponding source for a non-source form of such a combination shall include
+ * the source code for the parts of the OpenSSL library used as well as that of
+ * the covered work.
+ */
+
+#ifndef FILESYSTEM_H_
+#define FILESYSTEM_H_
+#include <sys/stat.h>
+#include <dirent.h>
+#include <string>
+#include <fstream>
+#include <list>
+#include <algorithm>
+#include "Exception.hpp"
+
+class FileSystem {
+public:
+	void copy(std::string const& srcPath, std::string const& destPath, bool recursive = false, std::list<std::string> ignoreList = std::list<std::string>() ) {
+		if (std::find(ignoreList.begin(), ignoreList.end(), srcPath) != ignoreList.end()) {
+			return;
+		}
+		struct stat fileProperties;
+		stat(srcPath.c_str(), &fileProperties);
+	
+		if (S_ISDIR(fileProperties.st_mode)) {
+			if (!recursive) {
+				throw LogicException(srcPath + " is an directory but copying shouldn't be recursive (recursive=false)", __FILE__, __LINE__);
+			}
+			DIR* dir = opendir(srcPath.c_str());
+			if (dir) {
+				struct dirent *entry;
+				mkdir(destPath.c_str(), fileProperties.st_mode);
+				while ((entry = readdir(dir))) {
+					if (std::string(entry->d_name) == "." || std::string(entry->d_name) == "..") {
+						continue;
+					}
+					this->copy(srcPath + "/" + entry->d_name, destPath + "/" + entry->d_name, recursive, ignoreList);
+				}
+				closedir(dir);
+			} else {
+				throw FileReadException("cannot read directory: " + srcPath, __FILE__, __LINE__);
+			}
+		} else {
+			std::ifstream src(srcPath.c_str(), std::ios::binary);
+			std::ofstream dst(destPath.c_str(), std::ios::binary);
+			dst << src.rdbuf();
+		}
+	}
+
+};
+
+#endif /* FILESYSTEM_H_ */

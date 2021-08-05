@@ -1,0 +1,976 @@
+# Swedish translation for grub-customizer
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR Åke Engelbrektson <eson@svenskasprakfiler.se>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2016-11-28 04:16+0000\n"
+"Last-Translator: Åke Engelbrektson <Unknown>\n"
+"Language-Team: Svenska Språkfiler <eson@svenskasprakfiler.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-10-13 11:16+0000\n"
+"X-Generator: Launchpad (build 18790)\n"
+"Language: sv\n"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "Namnge posten"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "Kan inte flytta den här posten"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "Inställningarna har sparats"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "Uppdaterar konfigurationen"
+
+#: src/View/Gtk/About.hpp:53
+msgid ""
+"Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr ""
+"Grub Customizer är ett grafiskt gränssnitt för att konfigurera grub2-/burg-"
+"inställningar"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "Skript"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "Undermeny"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "Platshållare"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "Menypost"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "Skript: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "Standardnamn: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "Partition: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "ISO-avbild: "
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr "Memtest-avbild: "
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "Aktuell"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "_Typ:"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr "Startsekvens"
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr "_Namn:"
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+"Kunde inte skapa startsekvens.\n"
+"Kontrollera parametrar!"
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "Postredigerare"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "Välj ..."
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323
+#: src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "Annat"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325
+#: src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(Skriptläge)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "Välj fil ..."
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "_Partition"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "_Initial ramdisk"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "_Linux-avbild"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "_Memtest-avbild"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "Sökväg till iso-fil"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "Kärnparametrar"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "I_SO-avbild"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr "_Memtest-avbild"
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "_Partition:"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "Undermonteringspunkter:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "Spara den här konfigurationen"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "Grub 2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "Montering misslyckades!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "Avmontering misslyckades!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr "Detta verkar inte vara något root-filsystem (ingen fstab hittas)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "Kunde inte montera den valda partitionen"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "Kunde inte avmontera den valda partitionen"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "Ett fel inträffade"
+
+#: src/View/Gtk/Error.hpp:32
+msgid ""
+"please Inform the author about this problem. The following information could "
+"be helpful:"
+msgstr ""
+"Informera gärna utvecklaren om detta problem. Följande information kan vara "
+"till hjälp:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "Fortsätt (risk för dataförlust)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"Installera starthanteraren i MBR och placera\n"
+"några filer i starthanterarens datamapp\n"
+"(om de inte redan finns)."
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "_Enhet: "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "Installera i MBR"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "Starthanteraren har installerats korrekt"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "Fel under installation av starthanterare"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "Installerar starthanterare ..."
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "Skriv en enhetssträng!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "_Arkiv"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "_Visa"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "_Installera i MBR"
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "_Visa detaljerad info"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "Visa _dolda poster"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "_Gruppera efter skript"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "Visa _platshållare"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "BURG hittad!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "Avancerade inställningar"
+
+#: src/View/Gtk/Main.hpp:139
+msgid ""
+"The modifications you've done affects the visible entries. Please reload!"
+msgstr ""
+"De ändringar du gjort, påverkar de synliga posterna. Läs in posterna igen."
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr ""
+"Skriptuppdateringar hittades. Tryck \"Spara\" för att tillämpa ändringarna!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "_Listkonfiguration"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr "Ta bort markerade poster (kan återställas från papperskorgen)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "Flytta upp markerad post eller skript"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "Flytta ner markerad post eller skript"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "Ta bort den här posten från aktuell undermeny"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "Lägg till denna post i en ny undermeny"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "Återställer listan till standardordning"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "Läser in konfigurationen på nytt. Osparade ändringar bevaras."
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "Byt namn"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "Flytta upp"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "Flytta ner"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "Ta bort från undermeny"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "Skapa undermeny"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "_Ändra miljö ..."
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "Vill du konfigurera BURG istället för grub2?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "_Allmänna inställningar"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "_Utseendeinställningar"
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "BURG-läge"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr "Spara konfigurationen och generera en ny %1"
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "Läser in konfiguration ..."
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "Läser in skript %2/%3 (%1)"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "Proxy-binär hittades inte!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid ""
+"You will see all entries (uncustomized) when you run grub. This error accurs "
+"(in most cases), when you didn't install grub gustomizer currectly."
+msgstr ""
+"Du kommer att se alla poster (ej anpassade) när grub körs. Detta fel "
+"framträder (i de flesta fall) när Grub Customizer inte installerats korrekt."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(Inkommande poster av %1)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(Inkommande poster)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "Den sparade konfigurationen är inte uppdaterad!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid ""
+"The generated configuration didn't equal to the saved configuration on "
+"startup. So what you see now may not be what you see when you restart your "
+"pc. To fix this, click update!"
+msgstr ""
+"Den genererade konfigurationen stämde inte överens med den sparade, vid "
+"uppstart. Så vad du ser nu, kanske inte är det du ser när du startar om din "
+"dator. Tryck \"Uppdatera\" för att fixa detta."
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "_Avsluta utan att uppdatera"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "_Uppdatera och avsluta"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "Vill du spara dina ändringar?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "_Avsluta utan att spara"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "_Spara och avsluta"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr ""
+"OCH: Dina ändringar har fortfarande inte sparats, uppdatering sparar dem "
+"också!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr "Kunde inte spara grub-konfigurationen!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "Grub-konfigurationen kan inte sparas"
+
+#: src/View/Gtk/Main.hpp:622
+msgid ""
+"Please take a look at the command line output below. If you think this is a "
+"bug of Grub Customizer, please create one at %1! Generally Grub Customizer "
+"should prevent errors like this."
+msgstr ""
+"Ta gärna en titt på kommandoradens utdata nedan. Om du tror att detta är ett "
+"fel i Grub Customizer, får du gärna skapa en felrapport på %1! Generellt bör "
+"Grub Customizer förhindra fel som det här."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"%1 kunde inte startas. Felmeddelande:\n"
+"%2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "Miljöinställningar"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "Vill du fortsätta utan att spara aktuell konfiguration?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "Det finns osparade ändringar!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid ""
+"Removing Script Code can cause problems when trying to boot entries relying "
+"on it. Are you sure you want to do it anyway?"
+msgstr ""
+"Borttaget skript kan orsaka problem vid försök att starta poster som är "
+"beroende av det. Vill du verkligen göra det ändå?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure "
+"there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them "
+"instead of just hiding them in boot menu."
+msgstr ""
+"Du försöker ta bort en post tillhörande det nuvarande aktiva systemet. "
+"Tillse att det finns andra fungerande poster för detta system!\n"
+"Om du bara vill ta bort gamla Linux-kärnor, är det bättre att avinstallera "
+"dem istället för att dölja dem i startmenyn."
+
+#: src/View/Gtk/Main.hpp:887
+msgid ""
+"An menuentry which is visible at the grub menu and boots an operating system "
+"when activated."
+msgstr ""
+"En menypost som är synlig i grub-menyn och startar ett operativsystem vid "
+"aktivering."
+
+#: src/View/Gtk/Main.hpp:889
+msgid ""
+"A group of other operating systems. Grub shows it as a normal menuentry "
+"however when clicking it, it loads another menu which allows you to choose "
+"one the the containing menuentries."
+msgstr ""
+"En grupp med andra operativsystem. Visas i grub som en normal menypost men "
+"när du klickar på den, öppnas en undermeny där du kan välja en av de "
+"ingående menyposterna."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place "
+"where Grub Customizer places new operating systems which are found by grub "
+"but still not configured using Grub Customizer. The Script code is code "
+"generated by grub which doesn't look like an menuentry. In most cases it's "
+"used to configure grub. You should only touch it when knowing what it does. "
+"Placeholders are hidden by default."
+msgstr ""
+"Det finns två typer av denna specialpost. Inkommande poster är den plats där "
+"Grub Customizer placerar de nya operativsystem som identifieras av grub, men "
+"som ännu inte konfigurerats med Grub Customizer. Skriptkoden är kod "
+"genererad av grub, som inte ser ut som en menypost. I de flesta fall används "
+"den för att konfigurera grub. Du bör inte röra den, om du inte vet vad den "
+"gör. Platshållare är dolda, som standard."
+
+#: src/View/Gtk/Main.hpp:898
+msgid ""
+"Scripts are generating menuentries. So every menuentry belongs to a script. "
+"They are shown as top level groups when activated. However in contrast to "
+"submenus they aren't shown at the boot menu."
+msgstr ""
+"Skript genererar menyposterna. Så varje menypost tillhör ett skript. De "
+"visas som toppnivågrupper vid aktivering, men till skillnad från "
+"undermenyer, visas de inte på startmenyn."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "Om menyposttyperna"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr "Detta tar bort alla liständringar i starthanteringsmenyn!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "Fördefinierat: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "Tidigare _startade poster"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "Standardpost"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "Synlighet"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "Visa meny"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "Kärnparametrar"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "Generera återställningsposter"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "Sök efter andra operativsystem"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "Aktuell upplösning: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "Inställningar"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "_Allmänt"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "U_tseende"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "_Avancerat"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "är aktiv"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "Namn"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "Värde"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "Starta standardposten efter %1 sekunder"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr "(Första posten)"
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr "(Annat ...)"
+
+#: src/View/Gtk/Settings.hpp:459
+msgid ""
+"This option doesn't work when the \"os-prober\" script finds other operating "
+"systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr ""
+"Detta alternativ fungerar inte när skriptet \"os-prober\" hittar andra "
+"operativsystem. Inaktivera \"%1\", om du inte behöver starta andra "
+"operativsystem."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected "
+"when booting. By default this always is the first one. This option means "
+"that the default entry selection stays the same when placing other operating "
+"systems there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So "
+"the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second "
+"entry\" you can use the last option which allows typing a custom reference. "
+"Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+"Detta alternativ låter dig avgöra vilket operativsystem som skall väljas vid "
+"systemstart. Som standard är det alltid det första. Detta alternativ innebär "
+"att standardstartposten förblir densamma även om andra operativsystem "
+"placeras först.\n"
+"\n"
+"I motsats till det första alternativet, identifieras de andra efter namn. Så "
+"standardstarten ändras inte när det flyttas till en annan position.\n"
+"\n"
+"Vill du använda en annan referens, som \"peka alltid till den andra posten\" "
+"kan du använda det sista alternativet som låter dig skriva en anpassad "
+"referens. Användningsexempel:\n"
+"1 = \"Peka alltid till den andra posten\" (numreringen börjar med 0)\n"
+"test > 0 = \"Peka alltid till den första posten i en undermeny som heter "
+"test\""
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "Vit"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "Gul"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "Ljus cyan"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "Cyan"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "Ljusblå"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "Blå"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "Ljusgrön"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "Grön"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "Ljus magenta"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "Magenta"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "Ljusröd"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "Röd"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "Brun"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "Ljusgrå"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "Mörkgrå"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "Transparent"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "Svart"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "_Läs in fil: "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "_Tema:"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "Bakgrundsbild"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "Välj en bakgrundsbild!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "_Teckensnitt"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "Välj temafil"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "Temainnehåll"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "Anpassade temainställningar"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "Normal: Teckensnitt"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "Normal: Bakgrund"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "Belyst: Teckensnitt"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "Belyst: Bakgrund"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "Arkiv"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "Lägg till tema"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "Ta bort detta tema"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "Arkivfiler"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "Alla filer"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "Ta bort teckensnitt"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "Ta bort bakgrund"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(Anpassade inställningar)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "Den valda filen kan inte läsas in som ett tema"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "Det angivna filnamnet kan inte användas"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid ""
+"This theme doesn't contain a %1. Please look for the config file and rename "
+"it to \"%1\"!"
+msgstr ""
+"Detta tema innehåller ingen %1. Leta upp config-filen och ändra dess namn "
+"till \"%1\"!"
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "Kunde inte spara teman fullständigt!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr "Filbytet misslyckades. Välj en temafil först!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "Filnamn"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot "
+"screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a "
+"general maximum. When you're trying to select a larger font, please do it in "
+"small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) won't "
+"fit into screen. So while there's enough vertical space you can try a larger "
+"font. The mass of menuentries is not a problem - they are scrolled if "
+"required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live "
+"cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of "
+"the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"Notera att stora teckensnitt i kombination med låg startskärmsresolution kan "
+"innebära problem med startskärmen.\n"
+"Eftersom problemet beror på det valda teckensnittet, är det inte möjligt att "
+"sätta ett generellt maxvärde. När du väljer en större teckenstorlek, bör du "
+"göra det stegvis, i små steg (starta om och kontrollera resultatet).\n"
+"Problemet framträder när grub-elementen (kanter, beskrivning) inte får plats "
+"på skärmen. Så länge det finns horisontell plats, kan du prova en större "
+"teckenstorlek. Antalet menyposter är inget problem, de skrollas vid behov.\n"
+"\n"
+"Problemet resulterar i en ändlös starttid för grub2. Du behöver en Live-CD "
+"för att fixa detta:\n"
+" * Ta bort teckensnittet från (MOUNT)/boot/grub/unicode.pf2\n"
+" * Starta om systemet (menyn skall visas med standardteckensnitt)\n"
+" * Öppna /etc/default/grub som root, och placera ett \"#\" i början på raden "
+"som innehåller GRUB_FONT\n"
+" * Starta sedan Grub Customizer och välj önskat teckensnitt"
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Grub-teckensnitt kan vara skadliga (Info)"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "Vill du verkligen ta bort det här temat?"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like "
+"color, wallpaper and font you can install complex theme packages to get an "
+"even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and "
+"add it to the list of available themes by using the add button next to the "
+"theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of "
+"images and allows some file management. Modified theme contents will be "
+"saved when you're pressing the save button."
+msgstr ""
+"Som ett alternativ till det enkla tema som tillhandahåller alternativ som "
+"färg, bakgrundsbild och teckensnitt, kan du installera ett mer komplext "
+"temapaket för att få en startmeny som ser bättre ut.\n"
+"\n"
+"Det finns flera nedladdningskällor som den här tråden på ubuntuforums.org:\n"
+"<a href=\"%1\">%1</a> (konto krävs)\n"
+"eller sök efter \"%2\" på<a href=\"%3\">%3</a>\n"
+"\n"
+"Ladda bara ner ett paket (oftast tar.gz-format) och lägg till det i listan "
+"över tillgängliga teman, med knappen intill temaväljaren.\n"
+"\n"
+"Efter ändring av tema, ser du en enkel redigerare där du kan förhandsgranska "
+"bilder och hantera vissa filer. Ändrat temainnehåll sparas när du trycker på "
+"\"Spara\"."
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "Lägg till post från skräp"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "Borttagna objekt"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "_Återställ"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "Återställ markerade poster"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "Ta bort markerade poster permanent"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid ""
+"delete entries permanently - this action is available on custom entries only"
+msgstr ""
+"Ta bort poster permanent - Denna åtgärd är endast tillgänglig på anpassade "
+"poster"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "Detta tar bort följande poster:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "Linux"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "Linux-ISO"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "Chainloader"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "Memtest"

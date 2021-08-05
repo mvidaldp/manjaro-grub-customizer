@@ -1,0 +1,984 @@
+# Lithuanian translation for grub-customizer
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2016-12-26 17:51+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <lt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-10-13 11:16+0000\n"
+"X-Generator: Launchpad (build 18790)\n"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "Pavadinkite šį įrašą"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "nepavyko perkelti šio įrašo"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "Konfigūracija įrašyta"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "atnaujinama konfigūracija"
+
+#: src/View/Gtk/About.hpp:53
+msgid ""
+"Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr ""
+"Grub derinimo programa yra grafinis įrankis, skirtas konfigūruoti grub2/burg "
+"nustatymus"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "scenarijus"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "submeniu"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "vietaženklis"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "meniu įrašas"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "scenarijus: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "numatytasis pavadinimas: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "skaidinys: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "ISO atvaizdis: "
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr "Memtest atvaizdis: "
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "esamas"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "_Tipas:"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr "Paleidimo seka"
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr "_Pavadinimas:"
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+"Klaida, kuriant paleidimo seką.\n"
+"Patikrinkite parametrus!"
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "Įrašų redaktorius"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "Pasirinkti..."
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323
+#: src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "Kita"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325
+#: src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(scenarijaus kodas)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "Pasirinkti failą..."
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "_Skaidinys"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "Prad_inis ramdisk"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "_Linux atvaizdis"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "_Memtest atvaizdis"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "Kelias į iso failą"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "Branduolio parametrai"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "I_SO atvaizdis"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr "_Memtest atvaizdis"
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "_Skaidinys:"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "Sub-prijungimo taškai:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "įrašyti šią konfigūraciją"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "Grub 2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "Prijungimas nepavyko!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "atjungimas nepavyko!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr "Tai, tikriausiai, nėra šaknies failų sistema (neaptiktas fstab)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "Nepavyko prijungti pasirinkto skaidinio"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "Nepavyko atjungti pasirinkto skaidinio"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "Įvyko klaida"
+
+#: src/View/Gtk/Error.hpp:32
+msgid ""
+"please Inform the author about this problem. The following information could "
+"be helpful:"
+msgstr ""
+"prašome apie šią problemą informuoti autorių. Ši informacija galėtų būti "
+"naudinga:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "tęsti (rizikuoti prarasti duomenis)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"Įdiegti paleidyklę į MBR paleidimo įrašą ir įdėti\n"
+"kai kuriuos failus į paleidyklės duomenų katalogą \n"
+"(jeigu jų dar ten nėra)."
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "Į_renginys: "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "Įdiegti į MBR"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "Paleidyklė buvo sėkmingai įdiegta"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "Klaida, įdiegiant paleidyklę"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "įdiegiama paleidyklė..."
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "Prašome įrašyti įrenginio eilutę!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "_Failas"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "_Taisa"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "_Rodinys"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "Į_diegti į MBR ..."
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "_Rodyti išsamesnę informaciją"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "Rodyti _paslėptus įrašus"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "_Grupuoti pagal scenarijų"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "Rodyti _vietaženklius"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "Rasta BURG!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "išplėstiniai nustatymai"
+
+#: src/View/Gtk/Main.hpp:139
+msgid ""
+"The modifications you've done affects the visible entries. Please reload!"
+msgstr ""
+"Jūsų atliktos modifikacijos paveikia matomus įrašus. Prašome įkelti iš naujo!"
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr ""
+"Rasti scenarijaus atnaujinimai. Spustelėkite įrašyti, kad pritaikytumėte "
+"pakeitimus!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "_Sąrašo konfigūracija"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr "Šalinti pasirinktus įrašus (juos galite atkurti iš šiukšlinės)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "Pakelti pasirinktą įrašą ar scenarijų"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "Nuleisti pasirinktą įrašą ar scenarijų"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "šalinti šį įrašą iš esamo submeniu"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "pridėti šį įrašą į naują submeniu"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "Sugrąžina sąrašą į numatytąją tvarką"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "iš naujo įkelia konfigūraciją. Neįrašyti pakeitimai išliks."
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "Pervadinti"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "Pakelti"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "Nuleisti"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "Šalinti iš submeniu"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "Sukurti submeniu"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "_Pakeisti aplinką ..."
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "Ar norite vietoj grub2 konfigūruoti BURG?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "_Bendri nustatymai"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "_Išvaizdos nustatymai..."
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "BURG veiksena"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr "Įrašyti konfigūraciją ir generuoti naują %1"
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "įkeliama konfigūracija…"
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "įkeliamas scenarijus %2/%3 (%1)"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "Nerasta įgaliotojo serverio dvejetainė!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid ""
+"You will see all entries (uncustomized) when you run grub. This error accurs "
+"(in most cases), when you didn't install grub gustomizer currectly."
+msgstr ""
+"Kai paleisite grub, matysite visus įrašus (nederintus). Ši klaida "
+"(dažniausiai) įvyksta, kai grub customizer yra įdiegta neteisingai."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(%1 gaunamieji įrašai)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(gaunamieji įrašai)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "Įrašyta konfigūracija yra pasenusi!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid ""
+"The generated configuration didn't equal to the saved configuration on "
+"startup. So what you see now may not be what you see when you restart your "
+"pc. To fix this, click update!"
+msgstr ""
+"Sugeneruota konfigūracija neatitiko tos, kuri buvo įrašyta paleidimo metu. "
+"Taigi, tai ką matote dabar, gali neatitikti to, ką matysite iš naujo paleidę "
+"kompiuterį. Norėdami tai pataisyti, spustelėkite \"Atnaujinti\"!"
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "_Išeiti neatnaujinant"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "_Atnaujinti ir išeiti"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "Ar norite įrašyti savo modifikacijas?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "_Išeiti neįrašant"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "Į_rašyti ir išeiti"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr ""
+"TAIPOGI: jūsų modifikacijos vis dar nėra įrašytos, atnaujinimas jas įrašys!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr "Nepavyko įrašyti grub konfigūracijos!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "Grub konfigūracija negali būti įrašyta"
+
+#: src/View/Gtk/Main.hpp:622
+msgid ""
+"Please take a look at the command line output below. If you think this is a "
+"bug of Grub Customizer, please create one at %1! Generally Grub Customizer "
+"should prevent errors like this."
+msgstr ""
+"Prašome pažiūrėti į žemiau esančią komandų eilutės išvestį. Jeigu manote, "
+"kad tai Grub derinimo programos klaida, sukurkite pranešimą apie klaidą ties "
+"%1! Bendrai, Grub derinimo programa turėtų neleisti tokių klaidų."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"Nepavyko sėkmingai įvykdyti %1. Klaidos pranešimas:\n"
+" %2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "Aplinkos nustatymai"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "Ar norite tęsti, neįrašant esamos konfigūracijos?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "Yra neįrašytų modifikacijų!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid ""
+"Removing Script Code can cause problems when trying to boot entries relying "
+"on it. Are you sure you want to do it anyway?"
+msgstr ""
+"Scenarijaus kodo šalinimas, kuomet juo pasikliaujant bandoma paleisti "
+"įrašus, gali sukelti problemų. Ar tikrai vis tiek norite tai atlikti?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure "
+"there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them "
+"instead of just hiding them in boot menu."
+msgstr ""
+"Jūs bandote pašalinti šiuo metu vykdomos sistemos įrašą. Įsitikinkite, kad "
+"yra kitų veikiančių šios sistemos įrašų!\n"
+"Jeigu tik norite pašalinti senus branduolius: Geresnis būdas yra juos "
+"pašalinti iš sistemos, o ne tiesiog paslėpti iš paleidimo meniu."
+
+#: src/View/Gtk/Main.hpp:887
+msgid ""
+"An menuentry which is visible at the grub menu and boots an operating system "
+"when activated."
+msgstr ""
+"Meniu įrašas, kuris yra matomas grub meniu ir, aktyvavus, paleidžia "
+"operacinę sistemą."
+
+#: src/View/Gtk/Main.hpp:889
+msgid ""
+"A group of other operating systems. Grub shows it as a normal menuentry "
+"however when clicking it, it loads another menu which allows you to choose "
+"one the the containing menuentries."
+msgstr ""
+"Kitų operacinių sistemų grupė. Grub rodo ją kaip normalų meniu įrašą, tačiau "
+"jį spustelėjus, grub įkelia kitą meniu, kuris leidžia jums pasirinkti vieną "
+"iš ten esančių meniu įrašų."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place "
+"where Grub Customizer places new operating systems which are found by grub "
+"but still not configured using Grub Customizer. The Script code is code "
+"generated by grub which doesn't look like an menuentry. In most cases it's "
+"used to configure grub. You should only touch it when knowing what it does. "
+"Placeholders are hidden by default."
+msgstr ""
+"Yra du šio ypatingo įrašo tipai: Gaunamieji įrašai yra vieta į kurią Grub "
+"derinimo programa patalpina naujas operacines sistemas, kurios yra rastos "
+"grub, tačiau vis dar nėra sukonfigūruotos naudojant Grub derinimo programą. "
+"Scenarijaus kodas yra grub generuojamas kodas, kuris nėra panašus į meniu "
+"įrašą. Daugelyje atveju jis yra naudojamas grub konfigūravimui. Jūs "
+"neturėtumėte jo liesti, nebent žinote ką jis daro. Pagal numatymą "
+"vietaženkliai yra paslėpti."
+
+#: src/View/Gtk/Main.hpp:898
+msgid ""
+"Scripts are generating menuentries. So every menuentry belongs to a script. "
+"They are shown as top level groups when activated. However in contrast to "
+"submenus they aren't shown at the boot menu."
+msgstr ""
+"Scenarijai generuoja meniu įrašus. Taigi, kiekvienas meniu įrašas priklauso "
+"scenarijui. Aktyvavus, jie yra rodomi kaip aukšto lygio grupės. Kita vertus, "
+"skirtingai nei submeniu, jie nėra rodomi paleidimo meniu."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "Apie įrašų tipus"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "Ar tikrai?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr "Tai pašalina visas jūsų paleidyklės meniu sąrašo modifikacijas!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "iš anksto api_brėžtas: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "ankstesnį kartą paleistas įrašas"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "numatytasis įrašas"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "matomumas"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "rodyti meniu"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "branduolio parametrai"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "generuoti atkūrimo įrašus"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "ieškoti kitų operacinių sistemų"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "pasirinktinė raiška: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "nustatymai"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "_Bendra"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "_Išvaizda"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "_Išplėstiniai"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "yra aktyvus"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "pavadinimas"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "reikšmė"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "Paleisti numatytąjį įrašą po %1 sekundžių"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr "(pirmasis įrašas)"
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr "(kitas...)"
+
+#: src/View/Gtk/Settings.hpp:459
+msgid ""
+"This option doesn't work when the \"os-prober\" script finds other operating "
+"systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr ""
+"Ši parinktis neveikia kai „os-prober“ scenarijus randa kitas operacines "
+"sistemas. Išjunkite „%1“ jeigu nereikia paleisti kitas operacines sistemas."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected "
+"when booting. By default this always is the first one. This option means "
+"that the default entry selection stays the same when placing other operating "
+"systems there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So "
+"the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second "
+"entry\" you can use the last option which allows typing a custom reference. "
+"Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+"Ši parinktis leidžia pasirinkti operacinę sistemą, kuri turėtų būti "
+"pasirenkama paleidžiant sistemą. Pagal numatymą, tai visuomet yra pirmoji. "
+"Ši parinktis reiškia, kad pridedant naujas operacines sistemas, pasirinktas "
+"numatytasis įrašas visada išliks tas pats.\n"
+"\n"
+"Skirtingai nei pirmoji parinktis, į kitus pasirinkimus yra nurodoma pagal "
+"pavadinimą. Taigi, numatytoji sistema, perkeliant ją į kitą vietą "
+"nepasikeičia.\n"
+"\n"
+"Jeigu jūs norite naudoti kitas nuorodas, kaip pavyzdžiui, \"visada nurodyti "
+"į antrąjį įrašą\", tuomet galite naudoti paskutinę parinktį, kuri leidžia "
+"įrašyti pasirinktinę nuorodą. Naudojimo pavyzdžiai:\n"
+" 1 = \"visada nurodyti į antrąjį įrašą\" (skaičiavimas prasideda nuo 0)\n"
+" test>0 = \"visada nurodyti į submeniu, kurio pavadinimas \"test\", pirmąjį "
+"įrašą\""
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "balta"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "geltona"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "šviesiai žydra"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "žydra"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "šviesiai mėlyna"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "mėlyna"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "šviesiai žalia"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "žalia"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "šviesiai purpurinė"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "purpurinė"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "šviesiai raudona"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "raudona"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "ruda"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "šviesiai pilka"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "tamsiai pilka"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "permatoma"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "juoda"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "Įke_lti failą: "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "_Tema:"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "fono paveikslas"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "Prašome pasirinkti fono paveikslą!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "Šri_ftas"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "pasirinkite temos failą"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "Temos turinys"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "Pasirinktiniai temos nustatymai"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "Normalus: Šriftas"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "Normalus: Fonas"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "Paryškintas: Šriftas"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "Paryškintas: Fonas"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "Failas"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "pridėti temą"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "ištrinti šią temą"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "Archyvo failai"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "Visi failai"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "šalinti šriftą"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "šalinti foną"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(Pasirinktiniai nustatymai)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "Pasirinktas failas negali būti įkeltas kaip tema"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "Nurodytas failo pavadinimas negali būti naudojamas"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid ""
+"This theme doesn't contain a %1. Please look for the config file and rename "
+"it to \"%1\"!"
+msgstr ""
+"Šioje temoje nėra %1. Prašome surasti konfigūracijos failą ir pervadinti jį "
+"į \"%1\"!"
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "Temų įrašymas pilnai nepavyko!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr ""
+"Failo pakeitimas nepavyko. Prašome, iš pradžių, pasirinkti temos failą!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "failo pavadinimas"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot "
+"screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a "
+"general maximum. When you're trying to select a larger font, please do it in "
+"small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) won't "
+"fit into screen. So while there's enough vertical space you can try a larger "
+"font. The mass of menuentries is not a problem - they are scrolled if "
+"required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live "
+"cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of "
+"the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"turėkite omenyje: dideli šriftai mažos raiškos paleidimo ekranuose gali "
+"iškraipyti paleidimo ekraną\n"
+"Kadangi ši problema priklauso nuo pasirinkto šrifto, nėra įmanoma apibrėžti "
+"bendrą didžiausią reikšmę. Kai bandote pasirinkti didesnį šriftą, darykite "
+"tai mažais žingsniais (paleisdami kompiuterį iš naujo ir patikrindami "
+"rezultatą).\n"
+"Ši problema atsiranda, kuomet grub naudotojo sąsajos elementai (rėmeliai, "
+"aprašas) netelpa į ekraną. Taigi, kol yra pakankamai vertikalios vietos, "
+"galite bandyti didesnį šriftą. Meniu įrašų skaičius nėra problema - jeigu "
+"reikia, jie yra slenkami.\n"
+"\n"
+"Iškraipymas sąlygoja begalinį grub2 įkėlimą. Norint tai pataisyti, jums "
+"reikės pristatomojo (live) cd disko:\n"
+" * ištrinkite šriftą iš (PRIJUNGIMAS)/boot/grub/unicode.pf2\n"
+" * paleiskite savo sistemą iš naujo (turėtų atsirasti meniu su "
+"numatytaisiais šriftais)\n"
+" * atverkite /etc/default/grub naudodamiesi root teisėmis ir eilutėje "
+"priešais GRUB_FONT įrašykite \"#\"\n"
+" * tuomet paleiskite grub derinimo programą, kad pasirinktumėte anksčiau "
+"naudotą šriftą"
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Grub šriftai gali būti kenksmingi (Informacija)"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "Ar tikrai norite pašalinti šią temą"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like "
+"color, wallpaper and font you can install complex theme packages to get an "
+"even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and "
+"add it to the list of available themes by using the add button next to the "
+"theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of "
+"images and allows some file management. Modified theme contents will be "
+"saved when you're pressing the save button."
+msgstr ""
+"Kaip kitą alternatyvą paprastam temų metodui, kuris pateikia kai kurias "
+"parinktis, tokias kaip spalva, fonas ir šriftas, jūs galite įdiegti "
+"sudėtinius temų paketus, kad atrastumėte dar geriau atrodantį paleidimo "
+"meniu.\n"
+"\n"
+"Yra keli atsisiuntimo šaltiniai, kaip pavyzdžiui, ši gija svetainėje "
+"ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (reikalauja paskyros)\n"
+"arba ieškokite \"%2\" per <a href='%3'>%3</a>\n"
+"\n"
+"Tiesiog, atsisiųskite tokį paketą (kuris daugeliu atvejų yra tar.gz formato) "
+"ir pridėkite jį į prieinamų temų sąrašą, naudodami pridėjimo mygtuką šalia "
+"temų parinkiklio.\n"
+"\n"
+"Pakeitę temą, jūs pamatysite paprastą redaktorių, kuris suteikia paveikslų "
+"peržiūrą ir leidžia atlikti tam tikrą failų tvarkymą. Modifikuotas temos "
+"turinys bus įrašytas, kuomet paspausite mygtuką \"Įrašyti\"."
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "Pridėti įrašą iš šiukšlinės"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "Pašalinti elementai"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "Atku_rti"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "Atkurti pasirinktus įrašus"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "ištrinti pasirinktus įrašus visiems laikams"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid ""
+"delete entries permanently - this action is available on custom entries only"
+msgstr ""
+"ištrinti įrašus visiems laikams - šis veiksmas yra prieinamas tik "
+"pasirinktiniams įrašams"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "Tai ištrina šiuos įrašus:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "Linux"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "Linux-ISO"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "Chainloader"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "Memtest"

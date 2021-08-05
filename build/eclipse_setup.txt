@@ -1,0 +1,10 @@
+- create project as Makefile project -> Empty project
+- import the includes from build/eclipse_gtkmm-3.0_includes.xml
+- rerun the indexer
+- build command: bash -c "cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=. ${ProjDirPath} && make install"
+- build directory: ${ProjDirPath}/build/tmp
+- build the project
+- choose the binary at build/tmp/grub-customizer at the run/debug settings
+
+global settings:
+- C/C++ -> Build -> Settings -> Discovery: add "-std=c++11" to the CDT Built-in Compiler Settings

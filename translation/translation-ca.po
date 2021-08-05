@@ -1,0 +1,989 @@
+# Catalan translation for grub-customizer
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the grub-customizer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: grub-customizer\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-22 22:43+0100\n"
+"PO-Revision-Date: 2017-05-18 20:12+0000\n"
+"Last-Translator: toniem <toni.estevez@gmail.com>\n"
+"Language-Team: Catalan <ca@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2018-10-13 11:16+0000\n"
+"X-Generator: Launchpad (build 18790)\n"
+"Language: ca\n"
+
+#: src/Controller/MainController.hpp:629
+msgid "Name the Entry"
+msgstr "Nom de l'entrada"
+
+#: src/Controller/MainController.hpp:715
+msgid "cannot move this entry"
+msgstr "No es pot moure aquesta entrada"
+
+#: src/Controller/MainController.hpp:834
+msgid "Configuration has been saved"
+msgstr "S'ha desat la configuració"
+
+#: src/Controller/MainController.hpp:839
+msgid "updating configuration"
+msgstr "S'està actualitzant la configuració"
+
+#: src/View/Gtk/About.hpp:53
+msgid ""
+"Grub Customizer is a graphical interface to configure the grub2/burg settings"
+msgstr ""
+"El Grub Customizer és una interfície gràfica per configurar els gestors "
+"d'arrencada GRUB2/BURG"
+
+#: src/View/Gtk/Element/List.hpp:135 src/View/Gtk/Main.hpp:897
+msgid "script"
+msgstr "Script"
+
+#: src/View/Gtk/Element/List.hpp:137 src/View/Gtk/Main.hpp:888
+msgid "submenu"
+msgstr "Submenú"
+
+#: src/View/Gtk/Element/List.hpp:139 src/View/Gtk/Main.hpp:891
+msgid "placeholder"
+msgstr "Marcador de posició"
+
+#: src/View/Gtk/Element/List.hpp:141 src/View/Gtk/Main.hpp:886
+msgid "menuentry"
+msgstr "Entrada del menú"
+
+#: src/View/Gtk/Element/List.hpp:144
+msgid "script: %1"
+msgstr "Script: %1"
+
+#: src/View/Gtk/Element/List.hpp:148
+msgid "default name: %1"
+msgstr "Nom per defecte: %1"
+
+#: src/View/Gtk/Element/List.hpp:152
+msgid "partition: %1"
+msgstr "Partició: %1"
+
+#: src/View/Gtk/Element/List.hpp:156
+msgid "ISO-Image: "
+msgstr "Imatge ISO: "
+
+#: src/View/Gtk/Element/List.hpp:160
+msgid "Memtest-Image: "
+msgstr "Imatge Memtest: "
+
+#: src/View/Gtk/Element/PartitionChooser.hpp:53
+msgid "current"
+msgstr "Actual"
+
+#: src/View/Gtk/EntryEditor.hpp:58 src/View/Gtk/EnvEditor.hpp:53
+msgid "_Type:"
+msgstr "_Tipus:"
+
+#: src/View/Gtk/EntryEditor.hpp:59
+msgid "Boot sequence"
+msgstr "Seqüència d'arrencada"
+
+#: src/View/Gtk/EntryEditor.hpp:60
+msgid "_Name:"
+msgstr "_Nom:"
+
+#: src/View/Gtk/EntryEditor.hpp:61
+msgid ""
+"Error building boot sequence.\n"
+"Check parameters!"
+msgstr ""
+"S'ha produït un error en crear la seqüència d'arrencada.\n"
+"Comproveu els paràmetres!"
+
+#: src/View/Gtk/EntryEditor.hpp:68
+msgid "Entry editor"
+msgstr "Editor d'entrades"
+
+#: src/View/Gtk/EntryEditor.hpp:204
+msgid "Choose…"
+msgstr "Tria…"
+
+#: src/View/Gtk/EntryEditor.hpp:315 src/View/Gtk/EntryEditor.hpp:323
+#: src/View/Gtk/EntryEditor.hpp:342
+msgid "Other"
+msgstr "Un altre"
+
+#: src/View/Gtk/EntryEditor.hpp:316 src/View/Gtk/EntryEditor.hpp:325
+#: src/View/Gtk/EntryEditor.hpp:344 src/View/Gtk/Main.hpp:566
+msgid "(script code)"
+msgstr "(Codi de l'script)"
+
+#: src/View/Gtk/EntryEditor.hpp:424
+msgid "Choose file…"
+msgstr "Tria un fitxer…"
+
+#: src/View/Gtk/EntryEditor.hpp:436
+msgid "_Partition"
+msgstr "_Partició"
+
+#: src/View/Gtk/EntryEditor.hpp:438
+msgid "_Initial ramdisk"
+msgstr "Ramdisk _inicial"
+
+#: src/View/Gtk/EntryEditor.hpp:440
+msgid "_Linux image"
+msgstr "Imatge _Linux"
+
+#: src/View/Gtk/EntryEditor.hpp:442
+msgid "_Memtest image"
+msgstr "Imatge _Memtest"
+
+#: src/View/Gtk/EntryEditor.hpp:444
+msgid "Path to iso file"
+msgstr "Camí al fitxer ISO"
+
+#: src/View/Gtk/EntryEditor.hpp:446
+msgid "Kernel params"
+msgstr "Paràmetres del nucli"
+
+#: src/View/Gtk/EntryEditor.hpp:448
+msgid "I_SO image"
+msgstr "Imatge I_SO"
+
+#: src/View/Gtk/EntryEditor.hpp:450
+msgid "_Memtest-Image"
+msgstr "Imatge _Memtest"
+
+#: src/View/Gtk/EnvEditor.hpp:52
+msgid "_Partition:"
+msgstr "_Partició:"
+
+#: src/View/Gtk/EnvEditor.hpp:54
+msgid "Submountpoints:"
+msgstr "Subpunts de muntatge:"
+
+#: src/View/Gtk/EnvEditor.hpp:55
+msgid "save this configuration"
+msgstr "Desa aquesta configuració"
+
+#: src/View/Gtk/EnvEditor.hpp:84
+msgid "Grub 2"
+msgstr "GRUB2"
+
+#: src/View/Gtk/EnvEditor.hpp:85
+msgid "BURG"
+msgstr "BURG"
+
+#: src/View/Gtk/EnvEditor.hpp:258
+msgid "Mount failed!"
+msgstr "¡Muntatge fallit!"
+
+#: src/View/Gtk/EnvEditor.hpp:259
+msgid "umount failed!"
+msgstr "¡Desmuntatge fallit!"
+
+#: src/View/Gtk/EnvEditor.hpp:260
+msgid "This seems not to be a root file system (no fstab found)"
+msgstr ""
+"Això no sembla un sistema de fitxers arrel (no s'ha trobat el fitxer fstab)"
+
+#: src/View/Gtk/EnvEditor.hpp:261
+msgid "Couldn't mount the selected partition"
+msgstr "No s'ha pogut muntar la partició seleccionada"
+
+#: src/View/Gtk/EnvEditor.hpp:262
+msgid "Couldn't umount the selected partition"
+msgstr "No s'ha pogut desmuntar la partició seleccionada"
+
+#: src/View/Gtk/Error.hpp:31 src/View/Gtk/Error.hpp:33
+msgid "An error occurred"
+msgstr "S'ha produït un error"
+
+#: src/View/Gtk/Error.hpp:32
+msgid ""
+"please Inform the author about this problem. The following information could "
+"be helpful:"
+msgstr ""
+"Informeu a l'autor sobre aquest problema. La informació següent pot ser "
+"d'utilitat:"
+
+#: src/View/Gtk/Error.hpp:36
+msgid "continue (risk data loss)"
+msgstr "Continua (amb risc de pèrdua de dades)"
+
+#: src/View/Gtk/Installer.hpp:36
+msgid ""
+"Install the bootloader to MBR and put some\n"
+"files to the bootloaders data directory\n"
+"(if they don't already exist)."
+msgstr ""
+"Instal·la el gestor d'arrencada al MBR y desa\n"
+"alguns fitxers a la carpeta de dades del gestor\n"
+"d'arrencada (si encara no hi són)"
+
+#: src/View/Gtk/Installer.hpp:37
+msgid "_Device: "
+msgstr "_Dispositiu: "
+
+#: src/View/Gtk/Installer.hpp:47
+msgid "Install to MBR"
+msgstr "Instal·la al MBR"
+
+#: src/View/Gtk/Installer.hpp:68
+msgid "The bootloader has been installed successfully"
+msgstr "El gestor d'arrencada s'ha instal·lat correctament"
+
+#: src/View/Gtk/Installer.hpp:72
+msgid "Error while installing the bootloader"
+msgstr "S'ha produït un error en instal·lar el gestor d'arrencada"
+
+#: src/View/Gtk/Installer.hpp:89
+msgid "installing the bootloader…"
+msgstr "S'està instal·lant el gestor de arrencada…"
+
+#: src/View/Gtk/Installer.hpp:93
+msgid "Please type a device string!"
+msgstr "Introduïu el nom del dispositiu!"
+
+#: src/View/Gtk/Main.hpp:99
+msgid "_File"
+msgstr "_Fitxer"
+
+#: src/View/Gtk/Main.hpp:104
+msgid "_Edit"
+msgstr "_Edita"
+
+#: src/View/Gtk/Main.hpp:105
+msgid "_View"
+msgstr "_Vista"
+
+#: src/View/Gtk/Main.hpp:106
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: src/View/Gtk/Main.hpp:107
+msgid "_Install to MBR …"
+msgstr "_Instal·la al MBR…"
+
+#: src/View/Gtk/Main.hpp:129
+msgid "_Show details"
+msgstr "_Mostra els detalls"
+
+#: src/View/Gtk/Main.hpp:130
+msgid "Show _hidden entries"
+msgstr "Mostra les _entrades ocultes"
+
+#: src/View/Gtk/Main.hpp:131
+msgid "_Group by Script"
+msgstr "Agrupa per _script"
+
+#: src/View/Gtk/Main.hpp:132
+msgid "Show _Placeholders"
+msgstr "Mostra els _marcadors de posició"
+
+#: src/View/Gtk/Main.hpp:134
+msgid "BURG found!"
+msgstr "S'ha trobat el BURG!"
+
+#: src/View/Gtk/Main.hpp:135 src/View/Gtk/Main.hpp:136
+msgid "advanced settings"
+msgstr "Configuració avançada"
+
+#: src/View/Gtk/Main.hpp:139
+msgid ""
+"The modifications you've done affects the visible entries. Please reload!"
+msgstr ""
+"Les modificacions que s'han fet afecten les entrades visibles. Recarregueu "
+"la configuració!"
+
+#: src/View/Gtk/Main.hpp:140
+msgid "Script updates found. Click save to apply the changes!"
+msgstr ""
+"S'han trobat actualitzacions d'scripts. Cliqueu al botó «Desa» per aplicar "
+"els canvis!"
+
+#: src/View/Gtk/Main.hpp:152
+msgid "_List configuration"
+msgstr "Configuració de la _llista"
+
+#: src/View/Gtk/Main.hpp:187
+msgid "Remove selected entries (you can restore them from trash)"
+msgstr ""
+"Suprimeix les entrades seleccionades (es poden restaurar de la paperera)"
+
+#: src/View/Gtk/Main.hpp:197
+msgid "Move up the selected entry or script"
+msgstr "Puja l'element seleccionat"
+
+#: src/View/Gtk/Main.hpp:199
+msgid "Move down the selected entry or script"
+msgstr "Baixa l'element seleccionat"
+
+#: src/View/Gtk/Main.hpp:205
+msgid "remove this entry from the current submenu"
+msgstr "Suprimeix aquesta entrada del submenú actual"
+
+#: src/View/Gtk/Main.hpp:208
+msgid "add this entry to a new submenu"
+msgstr "Afegeix aquesta entrada a un submenú nou"
+
+#: src/View/Gtk/Main.hpp:231
+msgid "Reverts the list to the default order"
+msgstr "Reverteix totes les modificacions"
+
+#: src/View/Gtk/Main.hpp:233
+msgid "reloads the configuration. Unsaved changes will be preserved."
+msgstr "Recarrega la configuració (preserva els canvis no desats)"
+
+#: src/View/Gtk/Main.hpp:277
+msgid "Rename"
+msgstr "Reanomena"
+
+#: src/View/Gtk/Main.hpp:278 src/View/Gtk/Main.hpp:279
+msgid "Move up"
+msgstr "Puja"
+
+#: src/View/Gtk/Main.hpp:280 src/View/Gtk/Main.hpp:281
+msgid "Move down"
+msgstr "Baixa"
+
+#: src/View/Gtk/Main.hpp:282 src/View/Gtk/Main.hpp:283
+msgid "Remove from submenu"
+msgstr "Suprimeix del submenú"
+
+#: src/View/Gtk/Main.hpp:284 src/View/Gtk/Main.hpp:285
+msgid "Create submenu"
+msgstr "Crea un submenú"
+
+#: src/View/Gtk/Main.hpp:300
+msgid "_Change Environment …"
+msgstr "_Canvia l'entorn…"
+
+#: src/View/Gtk/Main.hpp:307
+msgid "Do you want to configure BURG instead of grub2?"
+msgstr "Voleu configurar el BURG en lloc del GRUB2?"
+
+#: src/View/Gtk/Main.hpp:374
+msgid "_General settings"
+msgstr "Configuració _general"
+
+#: src/View/Gtk/Main.hpp:381
+msgid "_Appearance settings"
+msgstr "Configuració de l'_aparença"
+
+#: src/View/Gtk/Main.hpp:434
+msgid "BURG Mode"
+msgstr "Mode BURG"
+
+#: src/View/Gtk/Main.hpp:438
+msgid "Save configuration and generate a new %1"
+msgstr "Desa la configuració i genera un nou %1"
+
+#: src/View/Gtk/Main.hpp:535
+msgid "loading configuration…"
+msgstr "S'està carregant la configuració…"
+
+#: src/View/Gtk/Main.hpp:537
+msgid "loading script %2/%3 (%1)"
+msgstr "Càrrega d'script %2/%3 (%1)"
+
+#: src/View/Gtk/Main.hpp:550
+msgid "Proxy binary not found!"
+msgstr "No s'ha trobat el proxy binari!"
+
+#: src/View/Gtk/Main.hpp:551
+msgid ""
+"You will see all entries (uncustomized) when you run grub. This error accurs "
+"(in most cases), when you didn't install grub gustomizer currectly."
+msgstr ""
+"Quan s'executi el carregador de arrencada, es mostraran totes les entrades "
+"(sense personalitzar). Aquest error es produeix (en la majoria dels casos) "
+"quan el Grub Customizer no s'ha instal·lat correctament."
+
+#: src/View/Gtk/Main.hpp:558
+msgid "(incoming Entries of %1)"
+msgstr "(Entrades rebudes de %1)"
+
+#: src/View/Gtk/Main.hpp:560
+msgid "(incoming Entries)"
+msgstr "(Entrades rebudes)"
+
+#: src/View/Gtk/Main.hpp:579
+msgid "The saved configuration is not up to date!"
+msgstr "La configuració desada no està actualitzada!"
+
+#: src/View/Gtk/Main.hpp:580
+msgid ""
+"The generated configuration didn't equal to the saved configuration on "
+"startup. So what you see now may not be what you see when you restart your "
+"pc. To fix this, click update!"
+msgstr ""
+"La configuració generada no és igual a la configuració desada a l'inici. El "
+"que es veu ara pot ser que no sigui el que es veurà en reiniciar l'equip. "
+"Per solucionar això, cliqueu al boto «Actualitza»!"
+
+#: src/View/Gtk/Main.hpp:583
+msgid "_Quit without update"
+msgstr "_Surt sense actualitzar"
+
+#: src/View/Gtk/Main.hpp:586
+msgid "_Update & Quit"
+msgstr "_Actualitza i surt"
+
+#: src/View/Gtk/Main.hpp:590
+msgid "Do you want to save your modifications?"
+msgstr "Voleu desar les modificacions?"
+
+#: src/View/Gtk/Main.hpp:593
+msgid "_Quit without saving"
+msgstr "_Surt sense desar"
+
+#: src/View/Gtk/Main.hpp:596
+msgid "_Save & Quit"
+msgstr "_Desa i surt"
+
+#: src/View/Gtk/Main.hpp:599
+msgid "AND: your modifications are still unsaved, update will save them too!"
+msgstr ""
+"NOTA: Les modificacions encara no s'han desat, l'actualització també les "
+"desarà!"
+
+#: src/View/Gtk/Main.hpp:620
+msgid "Failed saving grub configuration!"
+msgstr ""
+"S'ha produït un error en desar la configuració del gestor de arrencada!"
+
+#: src/View/Gtk/Main.hpp:621
+msgid "The grub configuration cannot be saved"
+msgstr "No es pot desar la configuració del gestor de arrencada"
+
+#: src/View/Gtk/Main.hpp:622
+msgid ""
+"Please take a look at the command line output below. If you think this is a "
+"bug of Grub Customizer, please create one at %1! Generally Grub Customizer "
+"should prevent errors like this."
+msgstr ""
+"Consulteu la sortida de la línia d'ordres següent. Si creu que es tracta "
+"d'un error del Grub Customizer, creeu un informe d'error a %1. El Grub "
+"Customizer hauria d'evitar aquest tipus d'errors."
+
+#: src/View/Gtk/Main.hpp:628
+msgid ""
+"%1 couldn't be executed successfully. error message:\n"
+" %2"
+msgstr ""
+"%1 no s'ha pogut executar correctament. Missatge d'error:\n"
+" %2"
+
+#: src/View/Gtk/Main.hpp:630
+msgid "Environment settings"
+msgstr "Configuració de l'entorn"
+
+#: src/View/Gtk/Main.hpp:644
+msgid "Do you want to proceed without saving the current configuration?"
+msgstr "Voleu continuar sense desar la configuració actual?"
+
+#: src/View/Gtk/Main.hpp:645
+msgid "There are unsaved modifications!"
+msgstr "Hi ha modificacions que no s'han desat!"
+
+#: src/View/Gtk/Main.hpp:697
+msgid ""
+"Removing Script Code can cause problems when trying to boot entries relying "
+"on it. Are you sure you want to do it anyway?"
+msgstr ""
+"Retirar el codi d'un script pot causar problemes en intentar arrencar les "
+"entrades que en depenen. Voleu fer-ho de totes maneres?"
+
+#: src/View/Gtk/Main.hpp:707
+msgid ""
+"You're trying to remove an entry of the currently running system. Make sure "
+"there are other working entries of this system!\n"
+"If you just want to remove old kernels: The better way is uninstalling them "
+"instead of just hiding them in boot menu."
+msgstr ""
+"Esteu intentant suprimir una entrada del sistema en execució. Assegureu-vos "
+"que existeixen altres entrades operatives per a aquest sistema!\n"
+"Per eliminar nuclis antics, és millor desinstal·lar-los que suprimir les "
+"seves entrades del menú d'arrencada."
+
+#: src/View/Gtk/Main.hpp:887
+msgid ""
+"An menuentry which is visible at the grub menu and boots an operating system "
+"when activated."
+msgstr ""
+"Entrada del menú del gestor d'arrencada que inicia un sistema operatiu quan "
+"s'activa."
+
+#: src/View/Gtk/Main.hpp:889
+msgid ""
+"A group of other operating systems. Grub shows it as a normal menuentry "
+"however when clicking it, it loads another menu which allows you to choose "
+"one the the containing menuentries."
+msgstr ""
+"Entrada del menú del gestor d'arrencada que carrega un altre menú amb unes "
+"altres entrades del menú."
+
+#: src/View/Gtk/Main.hpp:892
+msgid ""
+"There are two types of this special entry: Incoming entries are the place "
+"where Grub Customizer places new operating systems which are found by grub "
+"but still not configured using Grub Customizer. The Script code is code "
+"generated by grub which doesn't look like an menuentry. In most cases it's "
+"used to configure grub. You should only touch it when knowing what it does. "
+"Placeholders are hidden by default."
+msgstr ""
+"Hi ha dos tipus d'aquesta entrada especial. Les entrades rebudes contenen "
+"els sistemes operatius nous trobats pel gestor de arrencada que encara no "
+"s'han configurat amb el Grub Customizer. Els codis dels scripts contenen el "
+"codi dels scripts que generen les entrades del menú de arrencada. Només "
+"s'han de modificar si es coneix el seu funcionament. Els marcadors de "
+"posició estan ocults per defecte."
+
+#: src/View/Gtk/Main.hpp:898
+msgid ""
+"Scripts are generating menuentries. So every menuentry belongs to a script. "
+"They are shown as top level groups when activated. However in contrast to "
+"submenus they aren't shown at the boot menu."
+msgstr ""
+"Els scripts generen les entrades de menú. Cada entrada del menú pertany a un "
+"script. En contrast amb els submenús, els scripts no es mostren al menú de "
+"arrencada."
+
+#: src/View/Gtk/Main.hpp:905
+msgid "About the entry types"
+msgstr "Quant als tipus d'entrada"
+
+#: src/View/Gtk/Main.hpp:957
+msgid "Are you sure?"
+msgstr "Esteu segur?"
+
+#: src/View/Gtk/Main.hpp:958
+msgid "This removes all your list modifications of the bootloader menu!"
+msgstr ""
+"Aquesta acció elimina totes les modificacions del menú del gestor "
+"d'arrencada!"
+
+#: src/View/Gtk/Settings.hpp:113
+msgid "pre_defined: "
+msgstr "_Predefineix: "
+
+#: src/View/Gtk/Settings.hpp:114
+msgid "previously _booted entry"
+msgstr "_Entrada de l'arrencada anterior"
+
+#: src/View/Gtk/Settings.hpp:115
+msgid "default entry"
+msgstr "Entrada predeterminada"
+
+#: src/View/Gtk/Settings.hpp:116
+msgid "visibility"
+msgstr "Visibilitat"
+
+#: src/View/Gtk/Settings.hpp:117
+msgid "show menu"
+msgstr "Mostra el menú d'arrencada"
+
+#: src/View/Gtk/Settings.hpp:118
+msgid "kernel parameters"
+msgstr "Paràmetres del nucli"
+
+#: src/View/Gtk/Settings.hpp:119
+msgid "generate recovery entries"
+msgstr "Genera les entrades de recuperació"
+
+#: src/View/Gtk/Settings.hpp:120
+msgid "look for other operating systems"
+msgstr "Busca altres sistemes operatius"
+
+#: src/View/Gtk/Settings.hpp:121
+msgid "custom resolution: "
+msgstr "Personalitza la resolució: "
+
+#: src/View/Gtk/Settings.hpp:125
+msgid "settings"
+msgstr "Configuració"
+
+#: src/View/Gtk/Settings.hpp:129
+msgid "_General"
+msgstr "_General"
+
+#: src/View/Gtk/Settings.hpp:130
+msgid "A_ppearance"
+msgstr "A_parença"
+
+#: src/View/Gtk/Settings.hpp:131
+msgid "_Advanced"
+msgstr "_Avançada"
+
+#: src/View/Gtk/Settings.hpp:144
+msgid "is active"
+msgstr "Activada"
+
+#: src/View/Gtk/Settings.hpp:145
+msgid "name"
+msgstr "Nom"
+
+#: src/View/Gtk/Settings.hpp:146
+msgid "value"
+msgstr "Valor"
+
+#: src/View/Gtk/Settings.hpp:204
+msgid "Boot default entry after %1 Seconds"
+msgstr "Arrencar l'entrada predeterminada en %1 segons"
+
+#: src/View/Gtk/Settings.hpp:297
+msgid "(first entry)"
+msgstr "(Primera entrada)"
+
+#: src/View/Gtk/Settings.hpp:299
+msgid "(other…)"
+msgstr "(Una altra…)"
+
+#: src/View/Gtk/Settings.hpp:459
+msgid ""
+"This option doesn't work when the \"os-prober\" script finds other operating "
+"systems. Disable \"%1\" if you don't need to boot other operating systems."
+msgstr ""
+"Aquesta opció no funciona quan l'script «os-prober» troba altres sistemes "
+"operatius. Desactiveu «%1» si no cal arrencar d'altres sistemes operatius."
+
+#: src/View/Gtk/Settings.hpp:666
+msgid ""
+"This option allows choosing the operating system which should be selected "
+"when booting. By default this always is the first one. This option means "
+"that the default entry selection stays the same when placing other operating "
+"systems there.\n"
+"\n"
+"In contrast to the first option the other choices are referenced by name. So "
+"the default system isn't changed when moving to another position.\n"
+"\n"
+"If you want to use another reference like \"always point to the second "
+"entry\" you can use the last option which allows typing a custom reference. "
+"Usage examples:\n"
+" 1 = \"always point to the second entry\" (counting starts by 0)\n"
+" test>0 = \"always point to the first entry of a submenu named test\""
+msgstr ""
+"Aquest menú desplegable permet triar el sistema operatiu que se selecciona "
+"automàticament per arrencar. L'opció predefinida selecciona el sistema "
+"operatiu que indica la primera entrada del menú d'arrencada.\n"
+"\n"
+"En contrast amb la primera opció, les altres opcions permeten triar "
+"l'entrada predeterminada pel seu nom. Per tant, el sistema operatiu que se "
+"selecciona no varia quan la seva entrada canvia de posició.\n"
+"\n"
+"L'última opció de la llista permet triar l'entrada predeterminada amb una "
+"referència personalitzada. Exemples d'ús:\n"
+"1 = l'entrada per defecte és la segona (el recompte comença en 0).\n"
+"test> 0 = l'entrada per defecte és la primera entrada de submenú anomenat "
+"«test»."
+
+#: src/View/Gtk/Theme.hpp:114
+msgid "white"
+msgstr "Blanc"
+
+#: src/View/Gtk/Theme.hpp:115
+msgid "yellow"
+msgstr "Groc"
+
+#: src/View/Gtk/Theme.hpp:116
+msgid "light-cyan"
+msgstr "Cian clar"
+
+#: src/View/Gtk/Theme.hpp:117
+msgid "cyan"
+msgstr "Cian"
+
+#: src/View/Gtk/Theme.hpp:118
+msgid "light-blue"
+msgstr "Blau clar"
+
+#: src/View/Gtk/Theme.hpp:119
+msgid "blue"
+msgstr "Blau"
+
+#: src/View/Gtk/Theme.hpp:120
+msgid "light-green"
+msgstr "Verd clar"
+
+#: src/View/Gtk/Theme.hpp:121
+msgid "green"
+msgstr "Verd"
+
+#: src/View/Gtk/Theme.hpp:122
+msgid "light-magenta"
+msgstr "Magenta clar"
+
+#: src/View/Gtk/Theme.hpp:123
+msgid "magenta"
+msgstr "Magenta"
+
+#: src/View/Gtk/Theme.hpp:124
+msgid "light-red"
+msgstr "Vermell clar"
+
+#: src/View/Gtk/Theme.hpp:125
+msgid "red"
+msgstr "Vermell"
+
+#: src/View/Gtk/Theme.hpp:126
+msgid "brown"
+msgstr "Marró"
+
+#: src/View/Gtk/Theme.hpp:127
+msgid "light-gray"
+msgstr "Gris clar"
+
+#: src/View/Gtk/Theme.hpp:128
+msgid "dark-gray"
+msgstr "Gris fosc"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "transparent"
+msgstr "Transparent"
+
+#: src/View/Gtk/Theme.hpp:129
+msgid "black"
+msgstr "Negre"
+
+#: src/View/Gtk/Theme.hpp:210
+msgid "_Load file: "
+msgstr "Carrega un fit_xer: "
+
+#: src/View/Gtk/Theme.hpp:213
+msgid "_Theme:"
+msgstr "_Tema:"
+
+#: src/View/Gtk/Theme.hpp:214
+msgid "background image"
+msgstr "Imatge de fons"
+
+#: src/View/Gtk/Theme.hpp:218
+msgid "Please choose a background image!"
+msgstr "Trieu una imatge de fons!"
+
+#: src/View/Gtk/Theme.hpp:221
+msgid "_Font"
+msgstr "_Tipus de lletra"
+
+#: src/View/Gtk/Theme.hpp:224
+msgid "choose theme file"
+msgstr "Trieu un fitxer de tema"
+
+#: src/View/Gtk/Theme.hpp:225
+msgid "Theme contents"
+msgstr "Contingut del tema"
+
+#: src/View/Gtk/Theme.hpp:226
+msgid "Custom Theme settings"
+msgstr "Configuració bàsica"
+
+#: src/View/Gtk/Theme.hpp:227
+msgid "Normal: Font"
+msgstr "Normal: lletra"
+
+#: src/View/Gtk/Theme.hpp:228
+msgid "Normal: Background"
+msgstr "Normal: fons"
+
+#: src/View/Gtk/Theme.hpp:229
+msgid "Highlighted: Font"
+msgstr "Ressaltat: lletra"
+
+#: src/View/Gtk/Theme.hpp:230
+msgid "Highlighted: Background"
+msgstr "Ressaltat: fons"
+
+#: src/View/Gtk/Theme.hpp:301
+msgid "File"
+msgstr "Fitxer"
+
+#: src/View/Gtk/Theme.hpp:312
+msgid "add theme"
+msgstr "Afegeix un tema"
+
+#: src/View/Gtk/Theme.hpp:313
+msgid "delete this theme"
+msgstr "Elimina aquest tema"
+
+#: src/View/Gtk/Theme.hpp:325
+msgid "Archive files"
+msgstr "Arxius"
+
+#: src/View/Gtk/Theme.hpp:330
+msgid "All files"
+msgstr "Tots els fitxers"
+
+#: src/View/Gtk/Theme.hpp:374
+msgid "remove font"
+msgstr "Suprimeix el tipus de lletra"
+
+#: src/View/Gtk/Theme.hpp:393
+msgid "remove background"
+msgstr "Suprimeix el fons"
+
+#: src/View/Gtk/Theme.hpp:501
+msgid "(Custom Settings)"
+msgstr "(Configuració bàsica)"
+
+#: src/View/Gtk/Theme.hpp:554
+msgid "The chosen file cannot be loaded as theme"
+msgstr "No es pot carregar cap tema del fitxer triat"
+
+#: src/View/Gtk/Theme.hpp:557
+msgid "The given filename cannot be used"
+msgstr "El nom de fitxer donat no es pot usar"
+
+#: src/View/Gtk/Theme.hpp:560
+msgid ""
+"This theme doesn't contain a %1. Please look for the config file and rename "
+"it to \"%1\"!"
+msgstr ""
+"Aquest tema no conté un 1%. Busqueu el fitxer de configuració i canvieu-ne "
+"el nom a «%1»!"
+
+#: src/View/Gtk/Theme.hpp:563
+msgid "Saving of themes didn't succeed completely!"
+msgstr "Els temes no s'han desat completament!"
+
+#: src/View/Gtk/Theme.hpp:566
+msgid "File replacement failed. Please select a theme file first!"
+msgstr ""
+"Substitució de fitxers fallida. Seleccioneu primer un fitxer de tema!"
+
+#: src/View/Gtk/Theme.hpp:587
+msgid "filename"
+msgstr "Nom del fitxer"
+
+#: src/View/Gtk/Theme.hpp:624
+msgid ""
+"please note: large fonts on low boot screen resolutions can corrupt the boot "
+"screen\n"
+"Because this problem depends on chosen font, it isn't possible to define a "
+"general maximum. When you're trying to select a larger font, please do it in "
+"small steps (rebooting and checking the results).\n"
+"The problem occurs when the grub gui elements (borders, description) won't "
+"fit into screen. So while there's enough vertical space you can try a larger "
+"font. The mass of menuentries is not a problem - they are scrolled if "
+"required.\n"
+"\n"
+"The corruption results in a endless loading time of grub2. You need a live "
+"cd to fix this:\n"
+" * delete the font from (MOUNT)/boot/grub/unicode.pf2\n"
+" * reboot your system (menu should show up with default fonts)\n"
+" * open /etc/default/grub with root permissions and place a '#' in front of "
+"the line containing GRUB_FONT\n"
+" * then run grub customizer to choose the font used before"
+msgstr ""
+"NOTA: Tipus de lletra grans en resolucions de pantalla baixes poden "
+"corrompre la pantalla d'arrencada.\n"
+"Atès que aquest problema depèn del tipus de lletra seleccionat, no és "
+"possible definir una mida màxima de tipus de lletra. Per seleccionar un "
+"tipus de lletra gran, feu-ho en diversos passos (reiniciant i comprovant els "
+"resultats).\n"
+"El problema es produeix quan els elements del menú de arrencada (vores i "
+"descripció) no encaixen a la pantalla. Mentre hi hagi prou espai vertical es "
+"pot provar un tipus de lletra més gran. La quantitat d'entrades del menú no "
+"constitueixen un problema; es desplacen si cal.\n"
+"\n"
+"La corrupció de la pantalla d'arrencada resulta en un temps de càrrega "
+"infinit per al gestor de arrencada. Per solucionar aquest error arrenqueu "
+"des d'un CD i seguiu aquestes instruccions:\n"
+"* Elimineu el fitxer de tipus de lletra "
+"(PUNT_DE_MUNTATGE)/boot/grub/unicode.pf2.\n"
+"* Reinicieu el sistema (el menú d'arrencada mostrarà el tipus de lletra per "
+"predeterminat).\n"
+"* Obriu el fitxer /etc/default/grub amb permisos d'administrador i "
+"col·loqueu un caràcter # al principi de la línia que conté GRUB_FONT.\n"
+"* Executeu el Grub Customizer per triar una mida més petita de tipus de "
+"lletra."
+
+#: src/View/Gtk/Theme.hpp:636
+msgid "Grub fonts can be harmful (Info)"
+msgstr "Corrupció del gestor d'arrencada"
+
+#: src/View/Gtk/Theme.hpp:857
+msgid "Are you sure you want to remove this theme"
+msgstr "Segur que voleu suprimir aquest tema?"
+
+#: src/View/Gtk/Theme.hpp:931
+msgid ""
+"Alternatively to the simple theme method which provides some options like "
+"color, wallpaper and font you can install complex theme packages to get an "
+"even better looking boot menu.\n"
+"\n"
+"There are several download sources like this thread at ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (needs account)\n"
+"or search for '%2' at <a href='%3'>%3</a>\n"
+"\n"
+"Just download such a package (which is in tar.gz format in most cases) and "
+"add it to the list of available themes by using the add button next to the "
+"theme chooser.\n"
+"\n"
+"After changing the theme you'll see a simple editor which gives a preview of "
+"images and allows some file management. Modified theme contents will be "
+"saved when you're pressing the save button."
+msgstr ""
+"Com a alternativa a la configuració bàsica de colors, fons de pantalla i "
+"tipus de lletra, podeu instal·lar paquets de tema per a obtenir un menú "
+"d'arrencada més elegant.\n"
+"\n"
+"Hi ha diverses fonts de descàrrega, com aquest fil en ubuntuforums.org:\n"
+"<a href='%1'>%1</a> (necessita un compte) o buscar «%2» a <a "
+"href='%3'>%3</a>.\n"
+"\n"
+"Només cal descarregar el paquet (que estarà en format tar.gz en la majoria "
+"dels casos) i afegir-lo a la llista de temes disponibles mitjançant el botó "
+"«Afegeix un tema» situat al costat del selector de temes.\n"
+"\n"
+"Després de seleccionar un tema, es carrega un editor senzill que mostra una "
+"vista prèvia de les imatges que conté i permet la gestió d'alguns fitxers. "
+"El contingut del tema modificat es desa en clicar al botó «Desa»."
+
+#: src/View/Gtk/Trash.hpp:55
+msgid "Add entry from trash"
+msgstr "Afegeix una entrada de la paperera"
+
+#: src/View/Gtk/Trash.hpp:59
+msgid "Removed items"
+msgstr "Paperera"
+
+#: src/View/Gtk/Trash.hpp:69
+msgid "_Restore"
+msgstr "_Restaura"
+
+#: src/View/Gtk/Trash.hpp:71
+msgid "Restore selected entries"
+msgstr "Restaura les entrades seleccionades"
+
+#: src/View/Gtk/Trash.hpp:76
+msgid "permanently delete selected entries"
+msgstr "Elimina permanentment les entrades seleccionades"
+
+#: src/View/Gtk/Trash.hpp:84
+msgid ""
+"delete entries permanently - this action is available on custom entries only"
+msgstr ""
+"Elimina entrades permanentment (aquesta acció només està disponible per a "
+"entrades personalitzades)"
+
+#: src/View/Gtk/Trash.hpp:159
+msgid "This deletes the following entries:"
+msgstr "Aquesta acció eliminarà les entrades següents:"
+
+#: src/main/client.cpp:98
+msgid "Linux"
+msgstr "Linux"
+
+#: src/main/client.cpp:99
+msgid "Linux-ISO"
+msgstr "Linux (ISO)"
+
+#: src/main/client.cpp:100
+msgid "Chainloader"
+msgstr "Carregador en cadena"
+
+#: src/main/client.cpp:101
+msgid "Memtest"
+msgstr "Test de memòria"
